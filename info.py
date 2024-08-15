@@ -53,7 +53,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ROUT')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
@@ -71,10 +71,10 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movies_Mail')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+KUvBZ_ZMsWxjODM1')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+-gvlAohrcNRiMDk1')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+JXlkT1YjPQg4MWVl') # Support Chat Link Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+b9RwU3mB_gY0ZjFl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/rudraraut')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+tO_VMvYw6lNlOWE1')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+b9RwU3mB_gY0ZjFl') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
